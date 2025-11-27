@@ -1,12 +1,3 @@
 This project is a browser-based mini-game built entirely with vanilla HTML, CSS, and JavaScript, demonstrating DOM manipulation, asset rendering, event-driven input handling, and frame-by-frame animation using requestAnimationFrame(). The game area is a full-screen responsive container where the player character is positioned and updated through keyboard events. Obstacles are generated dynamically based on a configurable data model that defines their image assets, dimensions, and speed multipliers. Each obstacle instance is animated independently with collision detection performed via getBoundingClientRect(). Difficulty scales over time by adjusting spawn rates and movement speeds through timed intervals. A persistent high-score system is implemented using the localStorage API, while the animated starfield background uses lightweight DOM elements to create a parallax-style effect. The codebase is split into separate HTML, CSS, and JS files for maintainability, and assets are stored in a dedicated /images directory.
 
-Future Enhancements:
-Sound effects
-Mobile controls (swipe left/right)
-Power-ups (speed boost, shield, slow-mo)
-Multi-obstacle patterns
-Character selection
 
-
-License
-free to use, modify, and share.
